@@ -1,0 +1,24 @@
+{
+    "questions": [
+        {
+            "question": "Where were the first Modern Olympics hosted in 1896?",
+            "answers": ["Olympia Greece", "Athens Greece", "Los Angeles USA", "London England"],
+            "correctAnswerIndex": 1
+          },
+          {
+            "question": "Who was the Greek hero who defeated Medusa, the Gorgon with a gaze that could turn people to stone?",
+            "answers": ["Heracles", "Odysseus", "Jason", "Perseus"],
+            "correctAnswerIndex": 3
+          },
+          {
+            "question": "What was the name of the strict training system that Spartan soldiers followed?",
+            "answers": ["The Agoge", "The Academy", "The Phalanx", "The Hoplite"],
+            "correctAnswerIndex": 0
+          },
+          {
+            "question": "Which Greek philosopher and mentor to Plato, was known for asking questions to challenge ideas and inspire deeper thinking?",
+            "answers": ["Aristotle", "Socrates", "Pythagoras", "Homer"],
+            "correctAnswerIndex": 1
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4984485703575692674
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 71d60a50826dda94a9bba32407471344, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -28.27
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71d60a50826dda94a9bba32407471344, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71d60a50826dda94a9bba32407471344, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.94
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71d60a50826dda94a9bba32407471344, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9238795
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71d60a50826dda94a9bba32407471344, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000007525955
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71d60a50826dda94a9bba32407471344, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.38268346
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71d60a50826dda94a9bba32407471344, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000000031173524
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71d60a50826dda94a9bba32407471344, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71d60a50826dda94a9bba32407471344, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71d60a50826dda94a9bba32407471344, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 71d60a50826dda94a9bba32407471344, type: 3}
+      propertyPath: m_Name
+      value: Centaur
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 71d60a50826dda94a9bba32407471344, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 71d60a50826dda94a9bba32407471344, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8685557459694789854}
+  m_SourcePrefab: {fileID: 100100000, guid: 71d60a50826dda94a9bba32407471344, type: 3}
+--- !u!1 &5326943102473689299 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 71d60a50826dda94a9bba32407471344, type: 3}
+  m_PrefabInstance: {fileID: 4984485703575692674}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8685557459694789854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5326943102473689299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c3f3b72519d84841ad101f498867c15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  spearPrefab: {fileID: 702830552881879220, guid: 4b1be74a651b0654cabb973e3a8bd0c4, type: 3}
+  throwForce: 50
+  attackRange: 30
+  stopDistance: 5
+  chaseSpeed: 3
+  attackCooldown: 2
+  spearSpawnHeightOffset: 3.5
+  throwSound: {fileID: 8300000, guid: 02e478df1fc377b45ac16ef614f28570, type: 3}
